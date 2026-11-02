@@ -1,0 +1,25 @@
+# Secrets and local settings
+.env
+.env.*
+*.key
+*.pem
+*token*
+secrets/
+
+# Python
+__pycache__/
+.venv/
+*.pyc
+
+# Models and large files
+*.gguf
+*.safetensors
+models/
+
+# OS and editor
+.DS_Store
+.vscode/
+.idea/
+
+# Logs (check before committing)
+*.log
